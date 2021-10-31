@@ -92,7 +92,7 @@
 					&trans &none &ld WNAV TAB &ld WMATH SPACE &ld WSYM BSPC    
 					&ld WSYM DEL &ld WMATH RET &ld WSYM ESC &none &to MALPHA
 			>;
-			sensor-bindings = <&trans>;
+			sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
 		};
 
 		// alpha_win {
@@ -126,7 +126,7 @@
 				&none &kp SE_DLR        &kp SE_PERC      &kp SE_PLUS        &kp SE_MINS     &none  &none &none    &none &none &none  &kp N1 &kp N2 &kp N3 &none  &none
 					&kp MAC_LOCK &none &none &none &none
 					&none        &none &none &none &none
-			>;			
+			>;
 			sensor-bindings = < &inc_dec_kp C_BRI_UP C_BRI_DN>;
 		};
 
@@ -138,7 +138,7 @@
 					&trans &trans &trans &trans &trans 
 					&trans &trans &trans &trans &trans
 			>;
-			sensor-bindings = <&trans>;
+			sensor-bindings = < &inc_dec_kp C_BRI_UP C_BRI_DN>;
 		};
 
 
