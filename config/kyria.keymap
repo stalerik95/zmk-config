@@ -218,7 +218,7 @@
 				&none &hm LCTRL F5 &hm LALT F6 &hm LSHFT F7 &hm LCMD F8 &none                                        &kp END  &kp LEFT        &kp DOWN &kp RIGHT   &kp PG_DN &none
 				&none &kp       F1 &kp      F2 &kp       F3 &kp      F4 &none  &none &bt BT_PRV     &bt BT_NXT &none &none    &kp C_PREV      &kp C_PP &kp LC(TAB) &none     &none
 					&none &none &none &none &none
-					&none &none &none &none &none
+					&none &none &none &none &kp BT_CLR
 			>;
 			// sensor-bindings = <&none &none>;
 		};
