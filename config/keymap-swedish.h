@@ -90,7 +90,7 @@
 /*µ*/
 #define SE_MICR RA(M)
 /*§*/
-#define SE_SECT GRV
+/* #define SE_SECT GRV */
 
 /* QUOTES AND ACCENTS */
 /*'*/
@@ -98,7 +98,7 @@
 /*"*/
 #define SE_DQUO LS(SE_2)
 /*¨*/
-#define SE_DIAE RBRC
+#define SE_DIAE RBKT
 /*´*/
 #define SE_ACUT EQUAL
 /*`*/

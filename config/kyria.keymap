@@ -155,7 +155,7 @@
 
 		// SYM                                                                                                                 ^
 		// ┌───────┬───────┬───────┬───────┬───────┬───────┐                                       ┌───────┬───────┬───────┬───────┬───────┬───────┐
-		// │       │   §   │   =   │   ;   │   :   │       │                                       │       │   {   │   }   │   ¨   │   ~   │       │
+		// │       │       │   =   │   ;   │   :   │       │                                       │       │   {   │   }   │   ¨   │   ~   │       │
 		// ├───────┼───────┼───────┼───────┼───────┼───────┤                                       ├───────┼───────┼───────┼───────┼───────┼───────┤
 		// │       │       │       │       │       │       │                                       │       │       │       │       │       │       │
 		// │       │   @   │   \   │   ?   │   !   │       │                                       │       │   (   │   )   │   '   │   "   │       │
@@ -168,7 +168,7 @@
 
 		symbol_mac {
 			bindings = <
-				&none &kp SE_SECT &kp SE_EQL  &kp SE_SEMI &kp SE_COLON &none                             &none  &kp SE_LBRC &kp SE_RBRC &kp SE_DIAE &kp SE_TILD &none
+				&none &none       &kp SE_EQL  &kp SE_SEMI &kp SE_COLON &none                             &none  &kp SE_LBRC &kp SE_RBRC &kp SE_DIAE &kp SE_TILD &none
 				&none &kp SE_AT   &kp SE_BSLS &kp SE_QUES &kp SE_EXLM  &none                             &none  &kp SE_LPRN &kp SE_RPRN &kp SE_QUOT &kp SE_DQUO &none
 				&none &kp SE_PIPE &kp SE_AMPR &kp SE_HASH &kp SE_UNDS  &none  &none &none    &none &none &none  &kp SE_LBKT &kp SE_RBKT &kp SE_ACUT &kp SE_GRV  &none
 					&none &none &none &none &none
