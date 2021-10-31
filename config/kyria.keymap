@@ -75,7 +75,7 @@
 
 		alpha_mac {
 			bindings = <
-				&none  &kp Q       &kp W      &kp F       &kp P      &kp B                                     &kp J &kp L      &kp U       &kp Y      &kp LG(SPACE) &none
+				&none  &kp Q       &kp W      &kp F       &kp P      &kp B                                     &kp J &kp L      &kp U       &kp Y      &kp LG(SPACE) &bt BT_CLR
 				&none  &hm LCTRL A &hm RALT R &hm LSHFT S &hm LCMD T &kp G                                     &kp M &hm RCMD N &hm RSHFT E &hm RALT I &hm RCTRL O   &none
 				&none  &kp Z       &kp X      &kp C       &kp D      &kp V &kp CAPS &none        &none &kp INS &kp K &kp H      &kp SE_AA   &kp SE_AE  &kp SE_OE     &none
 					&kp C_MUTE &kp LC(LEFT) &ld MNAV TAB &ld MMATH SPACE &ld MSYM BSPC    
@@ -127,7 +127,7 @@
 					&kp MAC_LOCK &none &none &none &none
 					&none        &none &none &none &none
 			>;
-			sensor-bindings = < &inc_dec_kp C_BRI_UP C_BRI_DN>;
+			sensor-bindings = < &inc_dec_kp C_BRI_DN C_BRI_UP>;
 		};
 
 		math_win {
@@ -138,7 +138,7 @@
 					&trans &trans &trans &trans &trans 
 					&trans &trans &trans &trans &trans
 			>;
-			sensor-bindings = < &inc_dec_kp C_BRI_UP C_BRI_DN>;
+			sensor-bindings = < &inc_dec_kp C_BRI_DN C_BRI_UP>;
 		};
 
 
@@ -201,12 +201,12 @@
 
 		// NAV
 		// ┌───────┬───────┬───────┬───────┬───────┬───────┐                                       ┌───────┬───────┬───────┬───────┬───────┬───────┐
-		// │       │   F9  │  F10  │  F11  │  F12  │       │                                       │  HOME │  LTAB │   ↑   │  RTAB │  PGUP │       │
+		// │       │   F9  │  F10  │  F11  │  F12  │       │                                       │       │  PREV │ PL/PS │  NEXT │       │       │
 		// ├───────┼───────┼───────┼───────┼───────┼───────┤                                       ├───────┼───────┼───────┼───────┼───────┼───────┤
 		// │       │  CTRL │  ALT  │ SHIFT │  CMD  │       │                                       │       │       │       │       │       │       │
-		// │       │   F5  │   F6  │   F7  │   F8  │       │                                       │  END  │   ←   │   ↓   │   →   │  PGDN │       │
+		// │       │   F5  │   F6  │   F7  │   F8  │       │                                       │  HOME │  LTAB │   ↑   │  RTAB │  PGUP │       │
 		// ├───────┼───────┼───────┼───────┼───────┼───────┼───────┬───────┐       ┌───────┬───────┼───────┼───────┼───────┼───────┼───────┼───────┤
-		// │       │   F1  │   F2  │   F3  │   F4  │       │       │ BTPRV │       │ BTNXT │       │       │  PREV │ PL/PS │  NEXT │       │       │
+		// │       │   F1  │   F2  │   F3  │   F4  │       │       │ BTPRV │       │ BTNXT │       │  END  │   ←   │   ↓   │   →   │  PGDN │       │
 		// └───────┴───────┴───────┼───────┼───────┼───────┼───────┼───────┤       ├───────┼───────┼───────┼───────┼───────┼───────┴───────┴───────┘
 		//                         │       │       │  NAV  │  SYM  │  MATH │       │  MATH │  SYM  │  NAV  │       │ RESET │
 		//                         │       │       │  TAB  │ SPACE │  BSPC │       │  DEL  │ ENTER │  ESC  │       │  BLT  │
@@ -214,9 +214,9 @@
 
 		nav_mac {
 			bindings = <
-				&none &kp       F9 &kp     F10 &kp      F11 &kp     F12 &none                                        &kp HOME &kp LS(LC(TAB)) &kp UP   &kp LC(TAB) &kp PG_UP &none
-				&none &hm LCTRL F5 &hm LALT F6 &hm LSHFT F7 &hm LCMD F8 &none                                        &kp END  &kp LEFT        &kp DOWN &kp RIGHT   &kp PG_DN &none
-				&none &kp       F1 &kp      F2 &kp       F3 &kp      F4 &none  &none &bt BT_PRV     &bt BT_NXT &none &none    &kp C_PREV      &kp C_PP &kp LC(TAB) &none     &none
+				&none &kp       F9 &kp     F10 &kp      F11 &kp     F12 &none                                        &none    &kp C_PREV      &kp C_PP &kp LC(TAB) &none     &none
+				&none &hm LCTRL F5 &hm LALT F6 &hm LSHFT F7 &hm LCMD F8 &none                                        &kp HOME &kp LS(LC(TAB)) &kp UP   &kp LC(TAB) &kp PG_UP &none
+				&none &kp       F1 &kp      F2 &kp       F3 &kp      F4 &none  &none &bt BT_PRV     &bt BT_NXT &none &kp END  &kp LEFT        &kp DOWN &kp RIGHT   &kp PG_DN &none
 					&none &none &none &none &none
 					&none &none &none &none &bt BT_CLR
 			>;
