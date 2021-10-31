@@ -130,7 +130,7 @@
 			sensor-bindings = < &inc_dec_kp C_BRI_UP C_BRI_DN &none>;
 		};
 
-		math_win {{
+		math_win {
 			bindings = <
 				&trans &trans           &trans &trans &trans &trans           &trans 									&trans &trans &trans &trans &trans &trans 
 				&trans &hm LWIN SE_ASTR &trans &trans &trans &hm LCTRL SE_DOT &trans 						   		 	&trans &trans &trans &trans &trans &trans 
