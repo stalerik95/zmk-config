@@ -86,9 +86,9 @@
 
 		alpha_win {
 			bindings = <
-				&trans &trans     &trans &trans &trans &trans      &trans 										&trans &trans 	   &trans &trans &trans 	&trans 
-				&trans &hm LWIN A &trans &trans &trans &hm LCTRL T &trans 						   				&trans &hm RCTRL N &trans &trans &hm RWIN O &trans 
-				&trans &trans     &trans &trans &trans &trans      &trans &trans &trans 		  &trans &trans &trans &trans 	   &trans &trans &trans 	&trans 
+				&trans &trans     &trans &trans &trans      &trans 										&trans &trans 	   &trans &trans &trans 	&trans 
+				&trans &hm LWIN A &trans &trans &hm LCTRL T &trans 						   				&trans &hm RCTRL N &trans &trans &hm RWIN O &trans 
+				&trans &trans     &trans &trans &trans      &trans &trans &trans 		  &trans &trans &trans &trans 	   &trans &trans &trans 	&trans 
 					&trans &none &ld WNAV TAB &ld WMATH SPACE &ld WSYM BSPC    
 					&ld WSYM DEL &ld WMATH RET &ld WNAV ESC &none &to MALPHA
 			>;
@@ -132,9 +132,9 @@
 
 		math_win {
 			bindings = <
-				&trans &trans           &trans &trans &trans &trans           &trans 									&trans &trans &trans &trans &trans &trans 
-				&trans &hm LWIN SE_ASTR &trans &trans &trans &hm LCTRL SE_DOT &trans 						   		 	&trans &trans &trans &trans &trans &trans 
-				&trans &trans           &trans &trans &trans &trans           &trans &trans &trans 		  &trans &trans &trans &trans &trans &trans &trans &trans 
+				&trans &trans           &trans &trans &trans           &trans 									&trans &trans &trans &trans &trans &trans 
+				&trans &hm LWIN SE_ASTR &trans &trans &hm LCTRL SE_DOT &trans 						   		 	&trans &trans &trans &trans &trans &trans 
+				&trans &trans           &trans &trans &trans           &trans &trans &trans       &trans &trans &trans &trans &trans &trans &trans &trans 
 					&trans &trans &trans &trans &trans 
 					&trans &trans &trans &trans &trans
 			>;
@@ -179,9 +179,9 @@
 
 		symbol_win {
 			bindings = <
-				&trans &trans &trans &trans &trans &trans &trans 									&trans &trans &trans &trans &trans &trans 
-				&trans &trans &trans &trans &trans &trans &trans 						   			&trans &trans &trans &trans &trans &trans 
-				&trans &trans &trans &trans &trans &trans &trans &trans &trans 		  &trans &trans &trans &trans &trans &trans &trans &trans 
+				&trans &trans &trans &trans &trans &trans 									&trans &trans &trans &trans &trans &trans 
+				&trans &trans &trans &trans &trans &trans 						   			&trans &trans &trans &trans &trans &trans 
+				&trans &trans &trans &trans &trans &trans &trans &trans       &trans &trans &trans &trans &trans &trans &trans &trans 
 					&trans &trans &trans &trans &trans 
 					&trans &trans &trans &trans &trans
 			>;
@@ -225,9 +225,9 @@
 
 		nav_win {
 			bindings = <
-				&trans &trans      &trans &trans &trans &trans       &trans 									&trans &trans &trans &trans &trans &trans 
-				&trans &hm LWIN F5 &trans &trans &trans &hm LCTRL F8 &trans 						   			&trans &trans &trans &trans &trans &trans 
-				&trans &trans      &trans &trans &trans &trans       &trans &trans &trans 		  &trans &trans &trans &trans &trans &trans &trans &trans 
+				&trans &trans      &trans &trans &trans       &trans 									&trans &trans &trans &trans &trans &trans 
+				&trans &hm LWIN F5 &trans &trans &hm LCTRL F8 &trans 						   			&trans &trans &trans &trans &trans &trans 
+				&trans &trans      &trans &trans &trans       &trans &trans &trans 		  &trans &trans &trans &trans &trans &trans &trans &trans 
 					&trans &trans &trans &trans &trans 
 					&trans &trans &trans &trans &trans
 			>;
