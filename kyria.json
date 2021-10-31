@@ -1,0 +1,384 @@
+[
+  {
+    "backcolor": "#ffffff",
+    "name": "Kyria",
+    "switchMount": "cherry",
+    "switchBrand": "kailh",
+    "switchType": "PG151101D05/D43",
+    "pcb": true,
+    "plate": false,
+    "css": ""
+  },
+  [
+    {
+      "y": 0.25,
+      "x": 3,
+      "t": "#000000\n\n\n\n#052dff\n\n\n\n\n#fa0202",
+      "f": 2,
+      "fa": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3
+      ]
+    },
+    "F11\n;\n\n<\n\n\n\n\n\nF",
+    {
+      "x": 9
+    },
+    "<i class='fa fa-arrow-up'></i>\n}\n\n8\n\n\n\n\n\nU"
+  ],
+  [
+    {
+      "y": -0.75,
+      "x": 2
+    },
+    "F10\n\n\n=\n\n\n\n\n\nF",
+    {
+      "x": 1
+    },
+    "F12\n:\n\n>\n\n\n\n\n\nP",
+    {
+      "x": 7
+    },
+    "L-Tab\n{\n\n7\n\n\n\n\n\nL",
+    {
+      "x": 1
+    },
+    "R-Tab\n¨\n\n9\n\n\n\n\n\nY"
+  ],
+  [
+    {
+      "y": -0.875,
+      "x": 5,
+      "t": "#fa0202\n\n\n\n#052dff",
+      "a": 7,
+      "fa": [
+        3
+      ]
+    },
+    "B",
+    {
+      "x": 5,
+      "t": "#000000\n\n\n\n#052dff\n\n\n\n\n#fa0202",
+      "a": 4,
+      "fa": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3
+      ]
+    },
+    "Home\n\n\n\n\n\n\n\n\nJ"
+  ],
+  [
+    {
+      "y": -0.625,
+      "t": "#fa0202\n\n\n\n#052dff",
+      "a": 7
+    },
+    "",
+    {
+      "t": "#000000\n\n\n\n#052dff\n\n\n\n\n#fa0202",
+      "a": 4
+    },
+    "F9\n\n\n^\n\n\n\n\n\nQ",
+    {
+      "x": 13
+    },
+    "PgUp\n~\n\n\n\n\n\n\n\nMenu",
+    {
+      "t": "#fa0202\n\n\n\n#052dff",
+      "a": 7
+    },
+    ""
+  ],
+  [
+    {
+      "y": -0.75,
+      "x": 3,
+      "t": "#000000\n\n\n\n#052dff\n\n\n\n\n#fa0202",
+      "a": 4
+    },
+    "F7\n?\n\n,\nShift\n\n\n\n\nS",
+    {
+      "x": 9
+    },
+    "<i class='fa fa-arrow-down'></i>\n)\n\n5\nShift\n\n\n\n\nE"
+  ],
+  [
+    {
+      "y": -0.75,
+      "x": 2
+    },
+    "F6\n_\n\n-\nAlt\n\n\n\n\nR",
+    {
+      "x": 1,
+      "n": true
+    },
+    "F8\n!\n\n.\n⌘/Ctrl\n\n\n\n\nT",
+    {
+      "x": 7,
+      "n": true
+    },
+    "<i class='fa fa-arrow-left'></i>\n(\n\n4\n⌘/Ctrl\n\n\n\n\nN",
+    {
+      "x": 1
+    },
+    "<i class='fa fa-arrow-right'></i>\n'\n\n6\nAlt\n\n\n\n\nI"
+  ],
+  [
+    {
+      "y": -0.875,
+      "x": 5,
+      "t": "#fa0202\n\n\n\n#052dff",
+      "a": 7,
+      "fa": [
+        3
+      ]
+    },
+    "G",
+    {
+      "x": 5,
+      "t": "#000000\n\n\n\n#052dff\n\n\n\n\n#fa0202",
+      "a": 4,
+      "fa": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3
+      ]
+    },
+    "End\n\n\n\n\n\n\n\n\nM"
+  ],
+  [
+    {
+      "y": -0.625,
+      "t": "#fa0202\n\n\n\n#052dff",
+      "a": 7
+    },
+    "",
+    {
+      "t": "#000000\n\n\n\n#052dff\n\n\n\n\n#fa0202",
+      "a": 4
+    },
+    "F5\n@\n\n+\nCtrl/<i class='fa fa-windows'></i>\n\n\n\n\nA",
+    {
+      "x": 13
+    },
+    "PgDn\n\"\n\n0\nCtrl/<i class='fa fa-windows'></i>\n\n\n\n\nO",
+    {
+      "t": "#fa0202\n\n\n\n#052dff",
+      "a": 7
+    },
+    ""
+  ],
+  [
+    {
+      "y": -0.75,
+      "x": 3,
+      "t": "#000000\n\n\n\n#052dff\n\n\n\n\n#fa0202",
+      "a": 4
+    },
+    "F3\n\\\n\n/\n\n\n\n\n\nC",
+    {
+      "x": 9
+    },
+    "<i class='fa fa-play'></i>\n]\n\n2\n\n\n\n\n\nÅ"
+  ],
+  [
+    {
+      "y": -0.75,
+      "x": 2
+    },
+    "F2\n&\n\n%\n\n\n\n\n\nX",
+    {
+      "x": 1
+    },
+    "F4\n#\n\n*\n\n\n\n\n\nD",
+    {
+      "x": 7
+    },
+    "<i class='fa fa-fast-backward'></i>\n[\n\n1\n\n\n\n\n\nH",
+    {
+      "x": 1
+    },
+    "<i class='fa fa-fast-forward'></i>\n`\n\n3\n\n\n\n\n\nÄ"
+  ],
+  [
+    {
+      "y": -0.875,
+      "x": 5,
+      "t": "#fa0202\n\n\n\n#052dff",
+      "a": 7,
+      "fa": [
+        3
+      ]
+    },
+    "V",
+    {
+      "x": 5
+    },
+    "K"
+  ],
+  [
+    {
+      "y": -0.625
+    },
+    "",
+    {
+      "t": "#000000\n\n\n\n#052dff\n\n\n\n\n#fa0202",
+      "a": 4,
+      "fa": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3
+      ]
+    },
+    "F1\n|\n\n$\n\n\n\n\n\nZ",
+    {
+      "x": 13
+    },
+    "\n´\n\n\n\n\n\n\n\nÖ",
+    {
+      "t": "#fa0202\n\n\n\n#052dff",
+      "a": 7
+    },
+    ""
+  ],
+  [
+    {
+      "y": -0.5,
+      "x": 2.5,
+      "c": "#918d8d",
+      "t": "#000000\n\n\n\n#052dff\n\n#000000",
+      "a": 5
+    },
+    "Audio\nScrub\n\n\n\n\nBri",
+    {
+      "x": 10,
+      "t": "#000000\n\n\n\n#052dff",
+      "a": 7
+    },
+    "/<i class='fa fa-windows'></i>"
+  ],
+  [
+    {
+      "rx": 4,
+      "ry": 8.175,
+      "y": -4.675000000000001,
+      "x": -0.5,
+      "c": "#cccccc"
+    },
+    ""
+  ],
+  [
+    {
+      "rx": 13,
+      "y": -4.675000000000001,
+      "x": -0.5
+    },
+    ""
+  ],
+  [
+    {
+      "r": 15,
+      "rx": 4,
+      "y": -4.675000000000001,
+      "x": -0.5
+    },
+    "Tab\n\n\n\nNav"
+  ],
+  [
+    {
+      "r": 30,
+      "y": -2,
+      "x": -0.5
+    },
+    "Caps"
+  ],
+  [
+    {
+      "x": -0.5,
+      "n": true
+    },
+    "Space\n\n\n\nMath"
+  ],
+  [
+    {
+      "r": 45,
+      "y": -2,
+      "x": -0.5
+    },
+    ""
+  ],
+  [
+    {
+      "x": -0.5
+    },
+    "Bspc\n\n\n\nSym"
+  ],
+  [
+    {
+      "r": -45,
+      "rx": 13,
+      "y": -5.675000000000001,
+      "x": -0.5
+    },
+    ""
+  ],
+  [
+    {
+      "x": -0.5
+    },
+    "Delete\n\n\n\nSym"
+  ],
+  [
+    {
+      "r": -30,
+      "y": -2,
+      "x": -0.5
+    },
+    "Insert"
+  ],
+  [
+    {
+      "x": -0.5,
+      "n": true
+    },
+    "Enter\n\n\n\nMath"
+  ],
+  [
+    {
+      "r": -15,
+      "y": -1,
+      "x": -0.5
+    },
+    "Esc\n\n\n\nNav"
+  ]
+]

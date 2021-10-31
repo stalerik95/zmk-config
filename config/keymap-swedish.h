@@ -128,3 +128,11 @@
 #define SE_8 N8
 /*9*/
 #define SE_9 N9
+
+/* MAC */
+/* Lock screen */
+#define MAC_LOCK LC(LS(C_PWR))
+
+/* WIN */
+/* Lock screen */
+#define WIN_LOCK LG(L)
