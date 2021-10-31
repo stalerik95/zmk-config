@@ -79,7 +79,7 @@
 				&none  &hm LCTRL A &hm RALT R &hm LSHFT S &hm LCMD T &kp G                                     &kp M &hm RCMD N &hm RSHFT E &hm RALT I &hm RCTRL O   &none
 				&none  &kp Z       &kp X      &kp C       &kp D      &kp V &kp CAPS &none        &none &kp INS &kp K &kp H      &kp SE_AA   &kp SE_AE  &kp SE_OE     &none
 					&kp C_MUTE &kp LC(LEFT) &ld MNAV TAB &ld MMATH SPACE &ld MSYM BSPC    
-					&ld MSYM DEL &ld MMATH RET &ld MSYM ESC &kp LC(RIGHT) &to WALPHA
+					&ld MSYM DEL &ld MMATH RET &ld MNAV ESC &kp LC(RIGHT) &to WALPHA
 			>;
 			sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
 		};
@@ -90,7 +90,7 @@
 				&trans &hm LWIN A &trans &trans &trans &hm LCTRL T &trans 						   				&trans &hm RCTRL N &trans &trans &hm RWIN O &trans 
 				&trans &trans     &trans &trans &trans &trans      &trans &trans &trans 		  &trans &trans &trans &trans 	   &trans &trans &trans 	&trans 
 					&trans &none &ld WNAV TAB &ld WMATH SPACE &ld WSYM BSPC    
-					&ld WSYM DEL &ld WMATH RET &ld WSYM ESC &none &to MALPHA
+					&ld WSYM DEL &ld WMATH RET &ld WNAV ESC &none &to MALPHA
 			>;
 			sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
 		};
@@ -300,3 +300,4 @@
 //                         │       │       │       │       │       │       │       │       │       │       │       │
 //                         │       │       │       │       │       │       │       │       │       │       │       │
 //                         └───────┴───────┴───────┴───────┴───────┘       └───────┴───────┴───────┴───────┴───────┘
+
