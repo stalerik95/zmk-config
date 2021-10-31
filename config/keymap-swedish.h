@@ -90,7 +90,7 @@
 /*µ*/
 #define SE_MICR RA(M)
 /*§*/
-#define SE_SECT KC_GRV
+#define SE_SECT GRV
 
 /* QUOTES AND ACCENTS */
 /*'*/

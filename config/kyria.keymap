@@ -76,7 +76,7 @@
 		alpha_mac {
 			bindings = <
 				&none  &kp Q       &kp W      &kp F       &kp P      &kp B                                     &kp J &kp L      &kp U       &kp Y      &kp LG(SPACE) &none
-				&none  &hm LCTRL A &hm LALT R &hm LSHFT S &hm LCMD T &kp G                                     &kp M &hm RCMD N &hm RSHFT E &hm RALT I &hm RCTRL O   &none
+				&none  &hm LCTRL A &hm RALT R &hm LSHFT S &hm LCMD T &kp G                                     &kp M &hm RCMD N &hm RSHFT E &hm RALT I &hm RCTRL O   &none
 				&none  &kp Z       &kp X      &kp C       &kp D      &kp V &kp CAPS &none        &none &kp INS &kp K &kp H      &kp SE_AA   &kp SE_AE  &kp SE_OE     &none
 					&kp C_MUTE &kp LC(LEFT) &ld MNAV TAB &ld MMATH SPACE &ld MSYM BSPC    
 					&ld MSYM DEL &ld MMATH RET &ld MSYM ESC &kp LC(RIGHT) &to WALPHA
@@ -122,7 +122,7 @@
 		math_mac {
 			bindings = <
 				&none &kp SE_CIRC       &kp SE_EQL       &kp SE_LT          &kp SE_GT       &none                             &none  &kp N7 &kp N8 &kp N9 &none  &none
-				&none &hm LCTRL SE_ASTR &hm LALT SE_SLSH &hm LSHFT SE_COMMA &hm LCMD SE_DOT &none                             &none  &kp N4 &kp N5 &kp N6 &kp N0 &none
+				&none &hm LCTRL SE_ASTR &hm RALT SE_SLSH &hm LSHFT SE_COMMA &hm LCMD SE_DOT &none                             &none  &kp N4 &kp N5 &kp N6 &kp N0 &none
 				&none &kp SE_DLR        &kp SE_PERC      &kp SE_PLUS        &kp SE_MINS     &none  &none &none    &none &none &none  &kp N1 &kp N2 &kp N3 &none  &none
 					&kp MAC_LOCK &none &none &none &none
 					&none        &none &none &none &none
@@ -145,7 +145,7 @@
 		// math_win {
 		// 	bindings = <
 		// 		&none &kp SE_CIRC      &kp SE_EQL       &kp SE_LT          &kp SE_GT        &none                           &none  &kp N7 &kp N8 &kp N9 &none  &none
-		// 		&none &hm LGUI SE_SLSH &hm LALT SE_ASTR &hm LSHFT SE_COMMA &hm LCTRL SE_DOT &none                           &none  &kp N4 &kp N5 &kp N6 &kp N0 &none
+		// 		&none &hm LGUI SE_SLSH &hm RALT SE_ASTR &hm LSHFT SE_COMMA &hm LCTRL SE_DOT &none                           &none  &kp N4 &kp N5 &kp N6 &kp N0 &none
 		// 		&none &kp SE_DLR       &kp SE_PERC      &kp SE_MINS        &kp SE_PLUS      &none  &none &none  &none &none &none  &kp N1 &kp N2 &kp N3 &none  &none
 		// 			&none &none &ld WMATH TAB &ld WSYM SPACE &ld WNAV BSPC    
 		// 			&ld WNAV DEL &ld WSYM RET  &ld WMATH ESC &none &none
