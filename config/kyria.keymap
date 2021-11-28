@@ -86,25 +86,14 @@
 
 		alpha_win {
 			bindings = <
-				&trans &trans     &trans &trans &trans      &trans 										&trans &trans 	   &trans &trans &trans 	&trans 
-				&trans &hm LWIN A &trans &trans &hm LCTRL T &trans 						   				&trans &hm RCTRL N &trans &trans &hm RWIN O &trans 
-				&trans &trans     &trans &trans &trans      &trans &trans &trans 		  &trans &trans &trans &trans 	   &trans &trans &trans 	&trans 
-					&trans &none &ld WNAV TAB &ld WMATH SPACE &ld WSYM BSPC    
+				&reset &kp Q       &kp W      &kp F       &kp P      &kp B                                     &kp J &kp L       &kp U       &kp Y      &kp RWIN     &bt BT_CLR
+				&none  &hm LWIN A &hm RALT R &hm LSHFT S &hm LCTRL T &kp G                                     &kp M &hm RCTRL N &hm RSHFT E &hm RALT I &hm RWIN O   &none
+				&none  &kp Z       &kp X      &kp C       &kp D      &kp V &kp CAPS &none        &none &kp INS &kp K &kp H       &kp SE_AA   &kp SE_AE  &kp SE_OE    &none
+					&kp C_MUTE &none &ld WNAV TAB &ld WMATH SPACE &ld WSYM BSPC    
 					&ld WSYM DEL &ld WMATH RET &ld WNAV ESC &none &to MALPHA
 			>;
 			sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
 		};
-
-		// alpha_win {
-		// 	bindings = <
-		// 		&none  &kp Q      &kp W      &kp F       &kp P       &kp B                                     &kp J &kp L       &kp U       &kp Y      &kp LG(SPACE) &none
-		// 		&none  &hm LGUI A &hm LALT R &hm LSHFT S &hm LCTRL T &kp G                                     &kp M &hm RCTRL N &hm RSHFT E &hm RALT I &hm RGUI O    &none
-		// 		&none  &kp Z      &kp X      &kp C       &kp D       &kp V &kp CAPS &none        &none &kp INS &kp K &kp H       &kp SE_AA   &kp SE_AE  &kp SE_OE     &none
-		// 			&none &none &ld WMATH TAB &ld WSYM SPACE &ld WNAV BSPC    
-		// 			&ld WNAV DEL &ld WSYM RET  &ld WMATH ESC &none &to MALPHA
-		// 	>;
-		// 	sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp A A>;
-		// };
 
 		// MATH
 		// ┌───────┬───────┬───────┬───────┬───────┬───────┐                                       ┌───────┬───────┬───────┬───────┬───────┬───────┐
@@ -127,31 +116,16 @@
 					&kp MAC_LOCK &none &none &none &none
 					&none        &none &none &none &none
 			>;
-			sensor-bindings = < &inc_dec_kp C_BRI_DN C_BRI_UP>;
-		};
-
-		math_win {
 			bindings = <
-				&trans &trans           &trans &trans &trans           &trans 									&trans &trans &trans &trans &trans &trans 
-				&trans &hm LWIN SE_ASTR &trans &trans &hm LCTRL SE_DOT &trans 						   		 	&trans &trans &trans &trans &trans &trans 
-				&trans &trans           &trans &trans &trans           &trans &trans &trans       &trans &trans &trans &trans &trans &trans &trans &trans 
-					&trans &trans &trans &trans &trans 
-					&trans &trans &trans &trans &trans
+				&none &kp SE_CIRC       &kp SE_EQL       &kp SE_LT          &kp SE_GT        &none                             &none  &kp N7 &kp N8 &kp N9 &none  &none
+				&none &hm LWIN SE_ASTR  &hm RALT SE_SLSH &hm LSHFT SE_COMMA &hm LCTRL SE_DOT &none                             &none  &kp N4 &kp N5 &kp N6 &kp N0 &none
+				&none &kp SE_DLR        &kp SE_PERC      &kp SE_PLUS        &kp SE_MINS      &none  &none &none    &none &none &none  &kp N1 &kp N2 &kp N3 &none  &none
+					&kp LG(L) &none &none &none &none
+					&none     &none &none &none &none
 			>;
 			sensor-bindings = < &inc_dec_kp C_BRI_DN C_BRI_UP>;
 		};
 
-
-		// math_win {
-		// 	bindings = <
-		// 		&none &kp SE_CIRC      &kp SE_EQL       &kp SE_LT          &kp SE_GT        &none                           &none  &kp N7 &kp N8 &kp N9 &none  &none
-		// 		&none &hm LGUI SE_SLSH &hm RALT SE_ASTR &hm LSHFT SE_COMMA &hm LCTRL SE_DOT &none                           &none  &kp N4 &kp N5 &kp N6 &kp N0 &none
-		// 		&none &kp SE_DLR       &kp SE_PERC      &kp SE_MINS        &kp SE_PLUS      &none  &none &none  &none &none &none  &kp N1 &kp N2 &kp N3 &none  &none
-		// 			&none &none &ld WMATH TAB &ld WSYM SPACE &ld WNAV BSPC    
-		// 			&ld WNAV DEL &ld WSYM RET  &ld WMATH ESC &none &none
-		// 	>;			
-		// 	sensor-bindings = < &inc_dec_kp A A &inc_dec_kp A A>;
-		// };
 
 		// SYM                                                                                                                 ^
 		// ┌───────┬───────┬───────┬───────┬───────┬───────┐                                       ┌───────┬───────┬───────┬───────┬───────┬───────┐
@@ -179,25 +153,14 @@
 
 		symbol_win {
 			bindings = <
-				&trans &trans &trans &trans &trans &trans 									&trans &trans &trans &trans &trans &trans 
-				&trans &trans &trans &trans &trans &trans 						   			&trans &trans &trans &trans &trans &trans 
-				&trans &trans &trans &trans &trans &trans &trans &trans       &trans &trans &trans &trans &trans &trans &trans &trans 
-					&trans &trans &trans &trans &trans 
-					&trans &trans &trans &trans &trans
+				&none &none       &kp SE_EQL  &kp SE_SEMI &kp SE_COLON &none                             &none  &kp SE_LBRC &kp SE_RBRC &kp SE_DIAE &kp SE_TILD &none
+				&none &kp SE_AT   &kp SE_BSLS &kp SE_QUES &kp SE_EXLM  &none                             &none  &kp SE_LPRN &kp SE_RPRN &kp SE_QUOT &kp SE_DQUO &none
+				&none &kp SE_PIPE &kp SE_AMPR &kp SE_HASH &kp SE_UNDS  &none  &none &none    &none &none &none  &kp SE_LBKT &kp SE_RBKT &kp SE_ACUT &kp SE_GRV  &none
+					&none &none &none &none &none
+					&none &none &none &none &none
 			>;
 			sensor-bindings = <&inc_dec_kp LC(Z) LS(LC(Z))>;
 		};
-
-		// symbol_win {
-		// 	bindings = <
-		// 		&none &none        &kp SE_EQL  &kp SE_HASH &kp SE_AT    &none                             &none  &kp WSE_LBRC &kp WSE_RBRC &kp SE_DIAE &kp SE_TILD &none
-		// 		&none &kp WSE_BSLS &kp SE_UNDS &kp SE_QUES &kp SE_EXLM  &none                             &none  &kp SE_LPRN  &kp SE_RPRN  &kp SE_QUOT &kp SE_DQUO &none
-		// 		&none &kp WSE_PIPE &kp SE_AMPR &kp SE_SEMI &kp SE_COLON &none  &none &none    &none &none &none  &kp SE_LBKT  &kp SE_RBKT  &kp SE_ACUT &kp SE_GRV  &none
-		// 			&none &none &ld WMATH TAB &ld WSYM SPACE &ld WNAV BSPC    
-		// 			&ld WNAV DEL &ld WSYM RET &ld WMATH ESC &none &none
-		// 	>;
-		// 	sensor-bindings = <&inc_dec_kp LS(LS(Z)) LS(Z) &inc_dec_kp A A>;
-		// };
 
 		// NAV
 		// ┌───────┬───────┬───────┬───────┬───────┬───────┐                                       ┌───────┬───────┬───────┬───────┬───────┬───────┐
@@ -225,26 +188,14 @@
 
 		nav_win {
 			bindings = <
-				&trans &trans      &trans &trans &trans       &trans 									&trans &trans &trans &trans &trans &trans 
-				&trans &hm LWIN F5 &trans &trans &hm LCTRL F8 &trans 						   			&trans &trans &trans &trans &trans &trans 
-				&trans &trans      &trans &trans &trans       &trans &trans &trans 		  &trans &trans &trans &trans &trans &trans &trans &trans 
-					&trans &trans &trans &trans &trans 
-					&trans &trans &trans &trans &trans
+				&none &kp       F9 &kp     F10 &kp      F11 &kp      F12 &none                                        &none    &kp C_PREV      &kp C_PP &kp LC(TAB) &none     &none
+				&none &hm LWIN  F5 &hm LALT F6 &hm LSHFT F7 &hm LCTRL F8 &none                                        &kp HOME &kp LS(LC(TAB)) &kp UP   &kp LC(TAB) &kp PG_UP &none
+				&none &kp       F1 &kp      F2 &kp       F3 &kp       F4 &none  &none &bt BT_PRV     &bt BT_NXT &none &kp END  &kp LEFT        &kp DOWN &kp RIGHT   &kp PG_DN &none
+					&none &none &none &none &none
+					&none &none &none &none &bt BT_CLR
 			>;
-			// sensor-bindings = <&trans &trans>;
+			// sensor-bindings = <&none &none>;
 		};
-
-		// nav_win {
-		// 	bindings = <
-		// 		&none &kp      F9 &kp     F10 &kp      F11 &kp      F12 &none                                        &none     &kp C_PREV      &kp C_PP   &kp C_NEXT  &none     &none
-		// 		&none &hm LGUI F5 &hm LALT F6 &hm LSHFT F7 &hm LCTRL F8 &none                                        &kp HOME  &kp LEFT        &kp UP     &kp RIGHT   &kp PG_UP &none
-		// 		&none &kp      F1 &kp      F2 &kp       F3 &kp       F4 &none  &none &bt BT_PRV     &bt BT_NXT &none &kp END   &kp LC(LS(TAB)) &kp DOWN   &kp LC(TAB) &kp PG_DN &none
-		// 			&kp LG(L) &none &ld WMATH TAB &ld WSYM SPACE &ld WNAV BSPC    
-		// 			&ld WNAV DEL &ld WSYM RET  &ld WMATH ESC &none &bt BT_CLR
-		// 	>;
-		// 	sensor-bindings = <&inc_dec_kp C_BRI_DN C_BRI_UP &inc_dec_kp A A>;
-		// };
-
 	};
 };
 
