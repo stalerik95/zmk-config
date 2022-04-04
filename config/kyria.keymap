@@ -142,12 +142,12 @@
 
 		nav {
 			bindings = <
-				&none &kp F9 &kp F10 &kp      F11 &kp      F12 &kp ESC                                &kp C_PP &kp C_PREV &kp C_BRI_UP &kp C_BRI_DN &kp C_NEXT &none
-				&none &kp F5 &kp  F6 &hm LWIN  F7 &hm RALT  F8 &kp ENTER                              &kp BSPC &kp LEFT   &kp UP       &kp DOWN     &kp RIGHT  &none
-				&none &kp F1 &kp  F2 &kp       F3 &kp       F4 &kp TAB   &none &none      &none &none &kp DEL  &kp HOME   &kp PGUP     &kp PGDN     &kp END    &none
+				&none &kp F9 &kp F10 &kp      F11 &kp      F12 &kp ESC                                           &kp C_PP &kp C_PREV &kp C_BRI_UP &kp C_BRI_DN &kp C_NEXT &none
+				&none &kp F5 &kp  F6 &hm LWIN  F7 &hm RALT  F8 &kp ENTER                                         &kp BSPC &kp LEFT   &kp UP       &kp DOWN     &kp RIGHT  &none
+				&none &kp F1 &kp  F2 &kp       F3 &kp       F4 &kp TAB   &none &bt BT_PRV       &bt BT_NXT &none &kp DEL  &kp HOME   &kp PGUP     &kp PGDN     &kp END    &none
 					
 					&none &none &none &kp SPACE &ld LCTRL L0    
-					&mo LSHIFT &none &none &none &kp BT_CLR
+					&mo LSHIFT &none &none &none &bt BT_CLR
 			>;
 			// sensor-bindings = <&none>;
 		};
