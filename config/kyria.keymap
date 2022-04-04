@@ -70,7 +70,7 @@
 				&none  &kp A       &kp R      &hm LWIN S  &hm RALT T &kp G                                     &kp M &kp N       &kp E       &hm RALT I &hm RWIN O   &none
 				&none  &kp Z       &kp X      &kp C       &kp D      &kp V &kp CAPS &none        &none &kp INS &kp K &kp H       &kp SE_AA   &kp SE_AE  &kp SE_OE    &none
 					&kp C_MUTE &none &none &mo SPACE &mo LCTRL    
-					&mo SHIFT &kp L1 &lnone &none &none
+					&mo LSHIFT &kp L1 &lnone &none &none
 			>;
 			sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
 		};
@@ -94,7 +94,7 @@
 				&none &kp SE_ASTR  &kp SE_SLSH &hm LWIN SE_COMMA &hm RALT SE_DOT &kp ENTER                             &kp BSPC &hm RALT N4 &hm LWIN N5 &kp N6 &kp N0 &none
 				&none &kp SE_DLR   &kp SE_PERC &kp SE_PLUS       &kp SE_MINS     &kp TAB    &none &none    &none &none &kp DEL  &kp N1      &kp N2      &kp N3 &none  &none
 					&none     &none &none &kp SPACE &ld LCTRL L0    
-					&mo SHIFT &kp L1 &lnone &none &none
+					&mo LSHIFT &kp L1 &lnone &none &none
 			>;
 			sensor-bindings = < &inc_dec_kp C_BRI_DN C_BRI_UP>;
 		};
@@ -119,7 +119,7 @@
 				&none &kp SE_AT   &kp SE_BSLS &hm LWIN SE_QUES &hm RALT SE_EXLM &kp ENTER                             &kp BSPC &hm LWIN SE_LPRN &hm RALT SE_RPRN &kp SE_QUOT &kp SE_DQUO &none
 				&none &kp SE_PIPE &kp SE_AMPR &kp SE_HASH      &kp SE_UNDS      &kp TAB    &none &none    &none &none &kp DEL  &kp SE_LBKT      &kp SE_RBKT      &kp SE_ACUT &kp SE_GRV  &none
 					&none     &none &none &kp SPACE &ld LCTRL L0    
-					&mo SHIFT &kp L1 &lnone &none &none
+					&mo LSHIFT &kp L1 &lnone &none &none
 			>;
 			sensor-bindings = <&inc_dec_kp LC(Z) LS(LC(Z))>;
 		};
@@ -143,7 +143,7 @@
 				&none &hm LWIN  F5 &kp F6  &hm LWIN  F7 &hm RALT  F8 &none                                        &kp BSPC &kp LEFT   &kp UP    &kp DOWN  &kp RIGHT  &none
 				&none &kp       F1 &kp F2  &kp       F3 &kp       F4 &none  &none &bt BT_PRV     &bt BT_NXT &none &kp DEL  &kp HOME   &kp PGUP  &kp PGDN  &kp END    &none
 					&none     &none &none &kp SPACE &ld LCTRL L0    
-					&mo SHIFT &kp L1 &lnone &none &kp BT_CLR
+					&mo LSHIFT &kp L1 &lnone &none &kp BT_CLR
 			>;
 			// sensor-bindings = <&none &none>;
 		};
