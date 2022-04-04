@@ -45,6 +45,15 @@
 			flavor = "balanced";
 			bindings = <&kp>, <&kp>;
 		};
+		ml: mod_layer {
+			compatible = "zmk,behavior-hold-tap";
+			label = "MOD_LAYER";
+			#binding-cells = <2>;
+			tapping_term_ms = <0>;
+			quick_tap_ms = <0>;
+			flavor = "balanced";
+			bindings = <&kp>, <&to>;
+		};
   };
 };
 
@@ -95,7 +104,7 @@
 				&none &kp SE_ASTR  &kp SE_SLSH &hm LWIN SE_COMMA &hm RALT SE_DOT &kp ENTER                             &kp BSPC &hm RALT N4 &hm LWIN N5 &kp N6 &kp N0 &none
 				&none &kp SE_DLR   &kp SE_PERC &kp SE_PLUS       &kp SE_MINS     &kp TAB    &none &none    &none &none &kp DEL  &kp N1      &kp N2      &kp N3 &none  &none
 					
-					&none     &none &none &kp SPACE &lt L0 LCTRL    
+					&none     &none &none &kp SPACE &ml LCTRL L0    
 					&kp LSHIFT &to L2 &none &none &none
 			>;
 			sensor-bindings = < &inc_dec_kp C_BRI_DN C_BRI_UP>;
@@ -121,7 +130,7 @@
 				&none &kp SE_AT   &kp SE_BSLS &hm LWIN SE_QUES &hm RALT SE_EXLM &kp ENTER                             &kp BSPC &hm LWIN SE_LPRN &hm RALT SE_RPRN &kp SE_QUOT &kp SE_DQUO &none
 				&none &kp SE_PIPE &kp SE_AMPR &kp SE_HASH      &kp SE_UNDS      &kp TAB    &none &none    &none &none &kp DEL  &kp SE_LBKT      &kp SE_RBKT      &kp SE_ACUT &kp SE_GRV  &none
 					
-					&none     &none &none &kp SPACE &lt L0 LCTRL    
+					&none     &none &none &kp SPACE &ml LCTRL L0    
 					&kp LSHIFT &to L3 &none &none &none
 			>;
 			sensor-bindings = <&inc_dec_kp LC(Z) LS(LC(Z))>;
@@ -146,7 +155,7 @@
 				&none &kp F5 &kp  F6 &hm LWIN  F7 &hm RALT  F8 &kp ENTER                                         &kp BSPC &kp LEFT   &kp UP       &kp DOWN     &kp RIGHT  &none
 				&none &kp F1 &kp  F2 &kp       F3 &kp       F4 &kp TAB   &none &bt BT_PRV       &bt BT_NXT &none &kp DEL  &kp HOME   &kp PGUP     &kp PGDN     &kp END    &none
 					
-					&none &none &none &kp SPACE &lt L0 LCTRL    
+					&none &none &none &kp SPACE &ml LCTRL L0    
 					&kp LSHIFT &none &none &none &bt BT_CLR
 			>;
 			// sensor-bindings = <&none>;
