@@ -139,9 +139,9 @@
 
 		nav_win {
 			bindings = <
-				&none &kp       F9 &kp F10 &kp      F11 &kp      F12 &none                                        &kp C_PP &kp C_PREV &kp BRIUP &kp BRIDN &kp C_NEXT &none
-				&none &hm LWIN  F5 &kp F6  &hm LWIN  F7 &hm RALT  F8 &none                                        &kp BSPC &kp LEFT   &kp UP    &kp DOWN  &kp RIGHT  &none
-				&none &kp       F1 &kp F2  &kp       F3 &kp       F4 &none  &none &bt BT_PRV     &bt BT_NXT &none &kp DEL  &kp HOME   &kp PGUP  &kp PGDN  &kp END    &none
+				&none &kp       F9 &kp F10 &kp      F11 &kp      F12 &none                                        &kp C_PP &kp C_PREV &kp C_BRI_UP &kp C_BRI_DN &kp C_NEXT &none
+				&none &hm LWIN  F5 &kp F6  &hm LWIN  F7 &hm RALT  F8 &none                                        &kp BSPC &kp LEFT   &kp UP       &kp DOWN     &kp RIGHT  &none
+				&none &kp       F1 &kp F2  &kp       F3 &kp       F4 &none  &none &bt BT_PRV     &bt BT_NXT &none &kp DEL  &kp HOME   &kp PGUP     &kp PGDN     &kp END    &none
 					&none     &none &none &kp SPACE &ld LCTRL L0    
 					&mo LSHIFT &kp L1 &lnone &none &kp BT_CLR
 			>;
