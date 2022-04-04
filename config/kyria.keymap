@@ -66,9 +66,9 @@
 
 		alpha {
 			bindings = <
-				&none  &kp Q       &kp W      &kp F       &kp P      &kp B                                     &kp J &kp L       &kp U       &kp Y      &kp RWIN     &none
-				&none  &kp A       &kp R      &hm LWIN S  &hm RALT T &kp G                                     &kp M &kp N       &kp E       &hm RALT I &hm RWIN O   &none
-				&none  &kp Z       &kp X      &kp C       &kp D      &kp V &kp CAPS &none        &none &kp INS &kp K &kp H       &kp SE_AA   &kp SE_AE  &kp SE_OE    &none
+				&none  &kp Q       &kp W      &kp F       &kp P      &kp B                                     &kp J &kp L       &kp U       &kp Y      &none     &none
+				&none  &kp A       &kp R      &hm LWIN S  &hm RALT T &kp G                                     &kp M &kp N       &hm RALT E  &hm RWIN I &kp O     &none
+				&none  &kp Z       &kp X      &kp C       &kp D      &kp V &kp CAPS &none        &none &kp INS &kp K &kp H       &kp SE_AA   &kp SE_AE  &kp SE_OE &none
 					
 					&kp C_MUTE &none &none &kp SPACE &kp LCTRL    
 					&kp LSHIFT &to L1 &none &none &none
