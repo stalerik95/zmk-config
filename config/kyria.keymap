@@ -145,7 +145,7 @@
 					&none     &none &none &kp SPACE &ld LCTRL L0    
 					&mo LSHIFT &none &none &none &kp BT_CLR
 			>;
-			sensor-bindings = <&none>;
+			// sensor-bindings = <&none>;
 		};
 	};
 };
